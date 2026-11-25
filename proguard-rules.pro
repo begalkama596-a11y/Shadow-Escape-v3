@@ -1,0 +1,3 @@
+-keep class com.alkama.shadowescape.** { *; }
+-keepattributes JavascriptInterface
+-keepclassmembers class com.alkama.shadowescape.MainActivity$Bridge { @android.webkit.JavascriptInterface <methods>; }
